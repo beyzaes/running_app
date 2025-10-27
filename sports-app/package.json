@@ -1,0 +1,46 @@
+{
+  "name": "sports-app",
+  "version": "1.0.0",
+  "description": "A mobile app for sports enthusiasts, providing activities, workouts, and a store.",
+  "main": "src/App.tsx",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/sports-app.git"
+  },
+  "keywords": [
+    "sports",
+    "fitness",
+    "workout",
+    "mobile",
+    "react-native"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.64.2",
+    "react-navigation": "^4.4.4",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-typescript": "^7.14.0",
+    "eslint": "^7.27.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
+    }
+  }
+}
