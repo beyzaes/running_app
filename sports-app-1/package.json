@@ -1,0 +1,33 @@
+{
+  "name": "sports-app",
+  "version": "1.0.0",
+  "description": "A mobile app for sports enthusiasts to participate in challenges.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.10",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
+  },
+  "keywords": [
+    "sports",
+    "challenges",
+    "mobile",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
